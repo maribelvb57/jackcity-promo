@@ -7,7 +7,7 @@
 <title>Hoteles para Perros en Santiago | JackCity</title>
 <meta name="description" content="Encuentra y reserva hoteles para perros en Santiago: alojamientos caninos verificados, con cuidado profesional y disponibilidad en toda la Región Metropolitana.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-<meta name="theme-color" content="#1d6fd0">
+<meta name="theme-color" content="#075f9f">
 <meta name="author" content="JackCity">
 <link rel="canonical" href="https://hotelesparaperrossantiago.cl/">
 
@@ -34,8 +34,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600&display=swap">
 <link rel="stylesheet" href="/styles.css">
+<link rel="preload" as="image" href="/assets/hero-jackcity-santiago.jpg"
+      imagesrcset="/assets/hero-jackcity-santiago-720.jpg 720w, /assets/hero-jackcity-santiago.jpg 1222w"
+      imagesizes="(max-width: 1222px) 100vw, 1222px">
 
 <!-- Datos estructurados -->
 <script type="application/ld+json">
@@ -57,6 +60,7 @@
       "name": "Hoteles para Perros en Santiago | JackCity",
       "description": "Encuentra y reserva hoteles para perros en Santiago: alojamientos caninos verificados, con cuidado profesional y disponibilidad en toda la Región Metropolitana.",
       "isPartOf": { "@id": "https://hotelesparaperrossantiago.cl/#website" },
+      "primaryImageOfPage": "https://hotelesparaperrossantiago.cl/assets/og-image.jpg",
       "inLanguage": "es-CL",
       "about": { "@id": "https://jackcity.cl/#organization" }
     },
@@ -120,94 +124,52 @@
 
 <body>
 
-<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<a class="skip-link" href="#beneficios">Saltar al contenido</a>
 
-<!-- ============ HERO ============ -->
-<header class="hero">
+<main>
 
-  <!-- PLACEHOLDER: reemplazar el src por la foto final, ej. /assets/hero.jpg o /assets/hero.webp -->
-  <img
-    class="hero__bg"
-    src="/assets/hero-placeholder.svg"
-    alt="Perro golden retriever con pañoleta JackCity en un hotel canino en Santiago, con la cordillera de los Andes y el skyline de fondo"
-    width="1600" height="1200"
-    fetchpriority="high" decoding="async">
-  <div class="hero__scrim" aria-hidden="true"></div>
+  <!-- ============ HERO (arte de home-03) ============ -->
+  <section class="hero" aria-labelledby="hero-title">
 
-  <div class="hero__inner">
+    <img class="hero__art"
+         src="/assets/hero-jackcity-santiago.jpg"
+         srcset="/assets/hero-jackcity-santiago-720.jpg 720w, /assets/hero-jackcity-santiago.jpg 1222w"
+         sizes="(max-width: 1222px) 100vw, 1222px"
+         alt="Perro golden retriever con pañoleta JackCity en un hotel canino en Santiago, con la cordillera de los Andes y el skyline de fondo. Texto: ¿Necesitas encontrar los mejores hoteles caninos de Santiago? JackCity es el lugar."
+         width="1222" height="975"
+         fetchpriority="high" decoding="async">
 
-    <div class="topbar">
-      <a class="brand" href="https://jackcity.cl" rel="noopener" aria-label="JackCity, hoteles caninos en Santiago">
-        <span class="brand__pin" aria-hidden="true">
-          <svg viewBox="0 0 24 24" role="img" focusable="false">
-            <path fill="#f5c518" d="M12 1.6c-4.3 0-7.8 3.4-7.8 7.7 0 5.6 6.7 12.4 7.3 13a.7.7 0 0 0 1 0c.6-.6 7.3-7.4 7.3-13 0-4.3-3.5-7.7-7.8-7.7z"/>
-            <g fill="#1d3f73" transform="translate(6.2 3.4) scale(0.48)">
-              <ellipse cx="6.5" cy="9" rx="2.4" ry="3"/><ellipse cx="17.5" cy="9" rx="2.4" ry="3"/>
-              <ellipse cx="10.2" cy="4.9" rx="2.2" ry="2.9"/><ellipse cx="13.8" cy="4.9" rx="2.2" ry="2.9"/>
-              <path d="M12 12c3.6 0 6.4 2.6 6.4 5.4 0 2.2-1.8 3.4-4 3.4-1 0-1.7-.3-2.4-.3s-1.4.3-2.4.3c-2.2 0-4-1.2-4-3.4C5.6 14.6 8.4 12 12 12z"/>
-            </g>
-          </svg>
-        </span>
-        <span class="brand__text">
-          <span class="brand__name">Jack<span class="brand__name--alt">City</span><sup>®</sup></span>
-          <span class="brand__tagline">Hoteles caninos en Santiago</span>
-        </span>
-      </a>
-
-      <p class="topbar__claim">
-        <span>Perros felices</span>
-        <span>humanos tranquilos</span>
-        <svg class="icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="#f5c518" stroke-width="2" stroke-linejoin="round" d="M12 20.3S3.8 15.1 3.8 9.4a4.6 4.6 0 0 1 8.2-2.8 4.6 4.6 0 0 1 8.2 2.8c0 5.7-8.2 10.9-8.2 10.9z"/></svg>
-      </p>
-    </div>
-
-    <div class="hero__content">
-      <h1 class="hero__h1">
-        <span class="hero__kicker">Hoteles para perros en Santiago</span>
-        <span class="hero__display">¿Necesitas encontrar <em>los mejores hoteles caninos de Santiago</em>?</span>
-      </h1>
-
-      <p class="hero__sub"><span>JackCity es el lugar</span></p>
-
-      <p class="hero__cta-wrap">
-        <a class="cta" href="https://jackcity.cl" target="_blank" rel="noopener">
-          Ir a JackCity
-          <svg class="cta__arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15m-6-6 6 6-6 6"/></svg>
-        </a>
-      </p>
-
-      <ul class="badges">
-        <li class="badge">
-          <svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff">
-            <ellipse cx="6.5" cy="9" rx="2.4" ry="3"/><ellipse cx="17.5" cy="9" rx="2.4" ry="3"/>
-            <ellipse cx="10.2" cy="4.9" rx="2.2" ry="2.9"/><ellipse cx="13.8" cy="4.9" rx="2.2" ry="2.9"/>
-            <path d="M12 12c3.6 0 6.4 2.6 6.4 5.4 0 2.2-1.8 3.4-4 3.4-1 0-1.7-.3-2.4-.3s-1.4.3-2.4.3c-2.2 0-4-1.2-4-3.4C5.6 14.6 8.4 12 12 12z"/>
-          </svg>
-          <span>Hoteles<br>verificados</span>
-        </li>
-        <li class="badge">
-          <svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path d="M12 21s-8.2-5.2-8.2-10.9a4.6 4.6 0 0 1 8.2-2.8 4.6 4.6 0 0 1 8.2 2.8C20.2 15.8 12 21 12 21z"/></svg>
-          <span>Perros felices</span>
-        </li>
-        <li class="badge">
-          <svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path d="M12 1.8 3.6 5v6.4c0 5 3.6 9.6 8.4 10.8 4.8-1.2 8.4-5.8 8.4-10.8V5L12 1.8z"/><path fill="#1d6fd0" d="m10.9 15.4-3-3 1.4-1.4 1.6 1.6 4.1-4.1 1.4 1.4-5.5 5.5z"/></svg>
-          <span>Dueños<br>tranquilos</span>
-        </li>
+    <!-- Texto del arte, disponible para buscadores y lectores de pantalla -->
+    <div class="hero__semantic">
+      <p>JackCity · Hoteles caninos en Santiago · Perros felices, humanos tranquilos</p>
+      <h1 id="hero-title">Hoteles para perros en Santiago: ¿necesitas encontrar los mejores hoteles caninos de Santiago? JackCity es el lugar</h1>
+      <ul>
+        <li>Hoteles verificados</li>
+        <li>Perros felices</li>
+        <li>Dueños tranquilos</li>
       </ul>
     </div>
-  </div>
 
-  <svg class="hero__wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
-    <path fill="#faf6ef" d="M0 0c360 96 1080 96 1440 0v110H0z"/>
-  </svg>
-</header>
+    <!-- Zona activa sobre el botón amarillo del arte -->
+    <a class="hero__cta" href="https://jackcity.cl" target="_blank" rel="noopener"
+       aria-label="Ir a JackCity (abre en una pestaña nueva)">
+      <span class="sr-only">Ir a JackCity</span>
+    </a>
+  </section>
 
-<main id="contenido">
+  <!-- CTA tactil para movil: el boton del arte queda muy pequeno bajo ~760px.
+       Si no se quiere, basta con eliminar este bloque. -->
+  <p class="cta-mobile">
+    <a class="cta" href="https://jackcity.cl" target="_blank" rel="noopener">
+      Ir a JackCity
+      <svg class="cta__arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15m-6-6 6 6-6 6"/></svg>
+    </a>
+  </p>
 
-  <!-- ============ FEATURES ============ -->
-  <section class="features" aria-labelledby="features-title">
+  <!-- ============ BENEFICIOS ============ -->
+  <section class="features" id="beneficios" aria-labelledby="beneficios-title">
     <div class="wrap">
-      <h2 id="features-title" class="visually-hidden">Por qué reservar tu hotel canino en Santiago con JackCity</h2>
+      <h2 id="beneficios-title" class="sr-only">Por qué reservar tu hotel canino en Santiago con JackCity</h2>
       <ul class="features__grid">
         <li class="feature">
           <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M3.5 10.5 12 3.6l8.5 6.9V20a.9.9 0 0 1-.9.9H4.4a.9.9 0 0 1-.9-.9z"/></svg>
@@ -263,7 +225,7 @@
       <p>Hay alojamientos caninos en gran parte de la Región Metropolitana: Providencia, Ñuñoa, Las Condes, Vitacura, La Reina, Santiago Centro, La Florida, Maipú, Peñalolén, Lo Barnechea y Huechuraba, entre otras comunas.</p>
 
       <p class="content__cta">
-        <a class="cta cta--sm" href="https://jackcity.cl" target="_blank" rel="noopener">
+        <a class="cta" href="https://jackcity.cl" target="_blank" rel="noopener">
           Ver hoteles caninos en JackCity
           <svg class="cta__arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15m-6-6 6 6-6 6"/></svg>
         </a>
@@ -281,7 +243,7 @@
       <path d="M12 12c3.6 0 6.4 2.6 6.4 5.4 0 2.2-1.8 3.4-4 3.4-1 0-1.7-.3-2.4-.3s-1.4.3-2.4.3c-2.2 0-4-1.2-4-3.4C5.6 14.6 8.4 12 12 12z"/>
     </svg>
     <em>Un mundo mejor para sus patitas</em>
-    <svg class="icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="#f5c518" stroke-width="2" stroke-linejoin="round" d="M12 20.3S3.8 15.1 3.8 9.4a4.6 4.6 0 0 1 8.2-2.8 4.6 4.6 0 0 1 8.2 2.8c0 5.7-8.2 10.9-8.2 10.9z"/></svg>
+    <svg class="icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="#ffd42d" stroke-width="2" stroke-linejoin="round" d="M12 20.3S3.8 15.1 3.8 9.4a4.6 4.6 0 0 1 8.2-2.8 4.6 4.6 0 0 1 8.2 2.8c0 5.7-8.2 10.9-8.2 10.9z"/></svg>
   </p>
   <p class="footer__legal">
     <a href="https://jackcity.cl" rel="noopener">JackCity</a> · Hoteles caninos en Santiago, Chile
