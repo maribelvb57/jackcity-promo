@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-label="Placeholder del hero: cordillera y skyline de Santiago">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0f56ad"/>
+      <stop offset="45%"  stop-color="#2f8ce0"/>
+      <stop offset="80%"  stop-color="#8ecdf4"/>
+      <stop offset="100%" stop-color="#c9e6f8"/>
+    </linearGradient>
+    <linearGradient id="suelo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#9a9081"/>
+      <stop offset="100%" stop-color="#6f6558"/>
+    </linearGradient>
+    <radialGradient id="sol" cx="78%" cy="18%" r="45%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cielo -->
+  <rect width="1600" height="1200" fill="url(#cielo)"/>
+  <rect width="1600" height="1200" fill="url(#sol)"/>
+
+  <!-- Cordillera de los Andes -->
+  <path fill="#7d93b4" d="M0 760 L120 640 L215 700 L340 560 L430 645 L560 520 L690 660 L800 585 L930 690 L1060 600 L1180 700 L1300 620 L1420 705 L1520 645 L1600 710 V860 H0 Z"/>
+  <path fill="#ffffff" opacity=".92" d="M340 560l52 49-30 10-22-14-24 18-26-10zM560 520l55 52-32 8-23-15-26 20-28-12zM1060 600l48 45-28 8-20-13-23 17-25-11zM1300 620l46 43-27 8-19-13-22 17-24-11z"/>
+  <path fill="#61789b" opacity=".85" d="M0 800 L150 735 L300 795 L470 720 L640 800 L820 745 L1000 805 L1180 750 L1360 810 L1520 760 L1600 800 V880 H0 Z"/>
+
+  <!-- Skyline de Santiago -->
+  <g fill="#4f6c93">
+    <rect x="60"   y="800" width="70"  height="120"/>
+    <rect x="150"  y="835" width="55"  height="85"/>
+    <rect x="225"  y="785" width="80"  height="135"/>
+    <rect x="325"  y="820" width="60"  height="100"/>
+    <rect x="405"  y="770" width="72"  height="150"/>
+    <rect x="497"  y="828" width="58"  height="92"/>
+    <rect x="575"  y="800" width="86"  height="120"/>
+    <rect x="681"  y="840" width="54"  height="80"/>
+    <rect x="755"  y="790" width="78"  height="130"/>
+    <rect x="853"  y="826" width="62"  height="94"/>
+    <rect x="935"  y="806" width="70"  height="114"/>
+    <rect x="1025" y="836" width="56"  height="84"/>
+    <!-- Torre Costanera -->
+    <path d="M1150 560 h96 v360 h-96 z"/>
+    <path d="M1150 560 l48 -42 l48 42 z"/>
+    <rect x="1268" y="800" width="66" height="120"/>
+    <rect x="1354" y="838" width="52" height="82"/>
+    <rect x="1426" y="795" width="76" height="125"/>
+    <rect x="1522" y="832" width="60" height="88"/>
+  </g>
+
+  <!-- Vegetación -->
+  <path fill="#3f6b4a" d="M0 930c90-34 180-8 270-30 92-22 168 26 262 12 96-14 176 30 274 18 100-12 182 24 282 10 98-14 190 22 290 8 78-11 148 6 222-6v250H0z"/>
+  <path fill="#345c3f" d="M0 990c120-26 240 8 360-10 118-18 226 22 344 8 118-14 226 24 344 8 118-16 226 18 344 4 76-9 152 2 208-6v210H0z"/>
+
+  <!-- Terreno en primer plano -->
+  <path fill="url(#suelo)" d="M0 1055c180-30 340 18 520 6 190-13 340-38 540-24 190 13 330 40 540 12v151H0z"/>
+  <g fill="#5c5348" opacity=".45">
+    <ellipse cx="250" cy="1120" rx="120" ry="26"/>
+    <ellipse cx="640" cy="1150" rx="150" ry="30"/>
+    <ellipse cx="1120" cy="1115" rx="130" ry="24"/>
+  </g>
+
+  <!-- Zona reservada para la foto del perro -->
+  <g opacity=".5">
+    <rect x="90" y="270" width="620" height="800" rx="40" fill="#ffffff" fill-opacity=".07"
+          stroke="#ffffff" stroke-width="4" stroke-dasharray="18 14"/>
+    <text x="400" y="640" text-anchor="middle" font-family="Nunito, Arial, sans-serif"
+          font-size="42" font-weight="800" fill="#ffffff">FOTO DEL PERRO</text>
+    <text x="400" y="694" text-anchor="middle" font-family="Nunito, Arial, sans-serif"
+          font-size="26" font-weight="600" fill="#ffffff">reemplazar /assets/hero-placeholder.svg</text>
+  </g>
+</svg>
