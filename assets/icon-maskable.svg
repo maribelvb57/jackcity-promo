@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="JackCity">
-  <rect width="64" height="64" rx="14" fill="#075f9f"/>
-  <g fill="#ffd42d" transform="translate(0.85 2.35) scale(2.6)">
+  <rect width="64" height="64" fill="#075f9f"/>
+  <g fill="#ffd42d" transform="translate(4.6 5.2) scale(1.93)">
     <ellipse cx="6.5" cy="9" rx="2.4" ry="3"/>
     <ellipse cx="17.5" cy="9" rx="2.4" ry="3"/>
     <ellipse cx="10.2" cy="4.9" rx="2.2" ry="2.9"/>

@@ -60,6 +60,26 @@ Si no lo quieres, elimina ese bloque de `index.html` y su regla en `styles.css`.
 - `robots.txt` abierto + `sitemap.xml`.
 - `home-03.html` queda con `noindex` y canonical a `/` para no competir con la home.
 
+## Iconos
+
+Icono plano de marca: patita amarilla JackCity sobre cuadrado azul, legible desde 16 px.
+
+```
+/favicon.ico                     16+32+48 en un solo .ico (fallback y Google)
+/site.webmanifest
+/assets/favicon.svg              fuente vectorial del icono
+/assets/icon-maskable.svg        variante con margenes para Android (purpose: maskable)
+/assets/favicon-16|32|48.png
+/assets/apple-touch-icon.png     180x180
+/assets/icon-192.png             PWA / Android
+/assets/icon-512.png
+/assets/icon-maskable-512.png
+```
+
+Los PNG se rasterizaron desde `favicon.svg`. Si cambias el SVG hay que regenerarlos
+(cualquier herramienta sirve; se generaron con canvas en el navegador y luego se
+empaquetó el `.ico` con los PNG de 16/32/48).
+
 ## Deploy en Vercel
 
 1. Vercel → **Add New… → Project** → importar este repo.
